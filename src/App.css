@@ -43,6 +43,10 @@ p, span {
 
 
 @media (max-width: 768px) {
+  .App-header {
+    width: 75%;
+  }
+
 
   h1 {
     font-size: 1.2rem;
