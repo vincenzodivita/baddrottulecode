@@ -41,6 +41,9 @@ p, span {
   margin-bottom: 1.2rem;
 }
 
+.App-name {
+  font-weight: bold;
+}
 
 @media (max-width: 768px) {
   .App-header {
