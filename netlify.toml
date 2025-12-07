@@ -1,0 +1,9 @@
+[build]
+  publish = "build"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/setlist-manager/*"
+  to = "https://andante-studio.netlify.app/:splat"
+  status = 200
+  force = true
