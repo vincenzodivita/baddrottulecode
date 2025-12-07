@@ -1,0 +1,25 @@
+.projects-button {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  font-family: monospace;
+  font-size: 1rem;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.projects-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: white;
+  transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+  .projects-button {
+    font-size: 0.85rem;
+    padding: 0.6rem 1.2rem;
+  }
+}

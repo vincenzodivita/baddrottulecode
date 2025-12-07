@@ -1,6 +1,6 @@
 import './Home.css';
 
-function Home() {
+function Home({ onShowProjects }) {
 
   const appName = (<strong className="App-name">baddrottuleCode</strong>);
 
@@ -24,6 +24,10 @@ function Home() {
         <p>
           Ho scelto di chiamare il mio sito {appName} per aggiungere un tocco di sicilianità al concetto di codice disordinato. Le baddrottole sono un termine dialettale siciliano, che ho scelto per rappresentare le mie radici. Anche se il mio sito non tratta di cucina, voglio evidenziare l'importanza di mantenere il codice ordinato e ben strutturato, pur riconoscendo che il mio codice inevitabilmente finirà per essere un po' disordinato – il mio "codice baddrottole".
         </p>
+
+        <button className="projects-button" onClick={onShowProjects}>
+          Vai ai progetti →
+        </button>
     
       </header>
 
