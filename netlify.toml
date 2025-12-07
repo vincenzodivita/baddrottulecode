@@ -3,7 +3,7 @@
   command = "npm run build"
 
 [[redirects]]
-  from = "/setlist-manager/*"
+  from = "/andante-studio/*"
   to = "https://andante-studio.netlify.app/:splat"
   status = 200
   force = true

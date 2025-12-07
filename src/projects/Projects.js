@@ -4,11 +4,11 @@ import './Projects.css';
 const projects = [
   {
     id: 1,
-    name: 'Setlist Manager',
+    name: 'Andante Studio',
     description: 'Gestisci le tue setlist musicali in modo semplice e intuitivo. Crea, organizza e condividi le tue scalette per concerti e prove.',
     image: '🎸',
     status: 'live',
-    url: 'https://andante-studio.netlify.app'
+    url: '/andante-studio/login'
   },
   {
     id: 2,
@@ -54,8 +54,6 @@ function Projects({ onBack }) {
           {project.status === 'live' ? (
             <a 
               href={project.url} 
-              target="_blank" 
-              rel="noopener noreferrer"
               className="project-btn live"
             >
               Vai al progetto →
