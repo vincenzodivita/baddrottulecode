@@ -8,7 +8,7 @@ const projects = [
     description: 'Gestisci le tue setlist musicali in modo semplice e intuitivo. Crea, organizza e condividi le tue scalette per concerti e prove.',
     image: '🎸',
     status: 'live',
-    url: '/andante-studio/login'
+    url: '/andante-studio'
   },
   {
     id: 2,
